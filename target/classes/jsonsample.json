@@ -1,0 +1,26 @@
+{
+	"users": [
+		{
+			"Name": "User1",
+			"Age": 27,
+			"id": 11
+		},
+		{
+			"Name": "User2",
+			"Age": 37,
+			"id": 13
+		}
+	],
+	"sports":[
+		{
+			"name": "Cricket",
+			"id": 17
+		},
+		{
+			"name": "Soccer",
+			"id": 19
+		}
+	],
+	"contact": "123456"
+
+}
