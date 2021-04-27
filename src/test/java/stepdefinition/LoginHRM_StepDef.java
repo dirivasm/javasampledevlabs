@@ -18,14 +18,14 @@ public class LoginHRM_StepDef {
 	
 	private WebDriver driver;
 	
-	@Before
-	public void setup() {
-	System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
+//	@Before
+//	public void setup() {
+//	System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
 		
-		driver = new ChromeDriver();
-		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-	}
+//		driver = new ChromeDriver();
+//		driver.manage().window().maximize();
+//		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+//	}
 	
 	@Given("^I navigate to \"([^\"]*)\"$")
 	public void i_navigate_to(String url) throws Throwable {
@@ -54,8 +54,8 @@ public class LoginHRM_StepDef {
 		assertEquals(actualResult,expectedResult);
 	}
 	
-	@After
-	public void tear() {
-		driver.close();
-	}
+	//@After
+	//public void tear() {
+	//	driver.close();
+	//}
 }
